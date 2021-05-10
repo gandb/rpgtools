@@ -1,10 +1,8 @@
- 
-"use strict";
 
 import { strict } from "assert";
 import { json } from "express";
 import { parseIsolatedEntityName } from "typescript";
-import * as random from "./random";
+import * as random from "./src/random";
 
 const args:Array<string> = process.argv;
 const START_USER_PARAMETER:number  = 2;
